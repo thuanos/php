@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>PharmaLMAO</title>
+</head>
+<body>
+    <header>
+        <div class="logo" >  
+            <img src="img/log.png" style="width: 250px; height: auto;" >
+        </div>
+        <div class="menu">  
+            <li><a href="#">THUỐC</a>
+                <ul class="drop-menu">
+                    <li><a href="">Thuốc cảm lạnh</a></li>
+                    <li><a href="">Thuốc dị ứng</a></li>
+                    <li><a href="">Thuốc giảm đau</a>
+                        <ul>
+                            <li><a href="#">Thuốc hạ sốt</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Thuốc xương khớp</a></li>
+                </ul>
+            </li>
+            <li><a href="#">THỰC PHẨM CHỨC NĂNG</a></li>
+            <li><a href="#">MẸ VÀ BÉ</a></li>
+            <li><a href="#">SẮC ĐẸP</a></li>
+            <li><a href="#">THIẾT BỊ Y TẾ</a></li>
+        </div>
+        <div class="others">  
+            <li><input placeholder="Search" type="text"><i class="fas fa-search"></i>
+
+            </li>
+            <li><a href="#"><i class="fas fa-bell"></i></a>
+                
+            </li>
+            <li><a href="#"><i class="fas fa-user"></i></a>
+
+            </li>
+            <li><a href="#"><i class="fas fa-shopping-bag"></i></a>
+
+            </li>
+        </div>
+    </header>
+
+    <section class="payment">
+        <div class="container">
+            <div class="payment-top-wrap">
+                <div class="payment-top">
+                    <div class="payment-top-cart payment-top-item">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="payment-top-address payment-top-item">
+                        <i class="fas fa-map-marker-alt "></i>
+                    </div>
+                    <div class="payment-top-payment payment-top-item">
+                        <i class="fas fa-money-check-alt "></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="payment-content row">
+                <div class="payment-content-left">
+                    <div class="payment-content-left-method-lelivery">
+                        <p style="font-weight: bold;">Phương thức giao hàng</p>
+                        <div class="payment-content-left-method-lelivery-item">
+                            <input  checked type="radio">
+                            <label for="">Giao hàng chuyển phát nhanh</label>
+                        </div>
+                    </div>
+                    <div class="payment-content-left-method-payment">
+                        <p style="font-weight: bold;">Phương thức thanh toán</p>
+                        <label for="">Mọi giao dịch đều được bảo mật. Thông tin sẽ không bao giờ được lưu lại</label>
+                        <div class="payment-content-left-method-payment-item">
+                            <input name="method-payment" type="radio">
+                            <label for="">Thanh toán bằng thẻ tín dụng(OnePay)</label>
+                        </div>
+                        <div class="payment-content-left-method-payment-item-img">
+                            <img style="width: 15%;" src="img/visa.png">
+                        </div>
+                        <div class="payment-content-left-method-payment-item">
+                            <input name="method-payment" type="radio">
+                            <label for="">Thanh toán bằng thẻ ATM(OnePay)</label>
+                        </div>
+                        <div class="payment-content-left-method-payment-item-img">
+                            <img style="width: 60%;" src="img/vcs.png">
+                        </div>
+                        <div class="payment-content-left-method-payment-item">
+                            <input name="method-payment" type="radio">
+                            <label for="">Momo</label>
+                        </div>
+                        <div class="payment-content-left-method-payment-item-img">
+                            <img style="width: 15%;" src="img/momo.jpg">
+                        </div>
+                        <div class="payment-content-left-method-payment-item">
+                            <input checked name="method-payment" type="radio">
+                            <label for="">Thu tiền tận nơi</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment-content-right">
+                    <div class="payment-content-right-button">
+                        <input type="text" placeholder="Mã giảm giá">
+                        <button><i class="fas fa-check"></i></button>
+                    </div>
+                    <div class="payment-content-right-button">
+                        <input type="text" placeholder="Mã cộng tác viên">
+                        <button><i class="fas fa-check"></i></button>
+                    </div>
+                    <div class="payment-content-right-mnv">
+                        <select name="" id="">
+                            <option value="">Chọn mã nhân viên thân thiết</option>
+                            <option value="">D324</option>
+                            <option value="">A324</option>
+                            <option value="">E324</option>
+                            <option value="">I324</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-content-right-payment">
+                <button>Tiếp tục thanh toán</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="app-container">
+        <p>Tải ứng dụng PharmaLMAO</p>
+        <div class="app-google">
+            <img src="img/appstore.png">
+            <img src="img/google.png">
+        </div>
+        <p>Nhận bản tin PharmaLMAO</p>
+        <input type="text" placeholder="Nhập email của bạn...">
+    </section>
+    <div class="footer-top">
+        <li><a href=""><img src="img/thongbao.jpg" alt=""></a></li>
+        <li><a href=""></a>Liên hệ</li>
+        <li><a href=""></a>Tuyển dụng</li>
+        <li><a href=""></a>Giới thiệu</li>
+        <li>
+            <a href="" class="fab fa-facebook-f"></a>
+            <a href="" class="fab fa-twitter"></a>
+            <a href="" class="fab fa-youtube"></a>
+        </li>
+    </div>
+    <div class="footer-bottom">
+        @PharmaLMAO 
+    </div>
+</body>
+</html>
