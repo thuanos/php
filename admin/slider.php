@@ -3,8 +3,13 @@
             <ul>
                 <li><a href="">Danh mục</a>
                     <ul>
+<<<<<<< HEAD
                         <li><a href="category_add.php">Thêm danh mục</a></li>
                         <li><a href="category_list.php">Danh sách danh mục</a></li>
+=======
+                        <li><a href="">Thêm danh mục</a></li>
+                        <li><a href="">Danh sách danh mục</a></li>
+>>>>>>> b9adb12 (1)
                     </ul>
                 </li>
                 <li><a href="">Loại sản phẩm</a>

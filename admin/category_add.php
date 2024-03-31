@@ -83,4 +83,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
 </section>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> b9adb12 (1)

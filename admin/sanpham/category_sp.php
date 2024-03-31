@@ -3,7 +3,9 @@
 
 ?>
 <?php 
+
 class category{
+
     private $db;
     public function __construct(){
         $this-> db = new Database();
@@ -34,6 +36,7 @@ class category{
         $query ="delete from category where id='$id'";
         $result = $this->db->delete($query);
         header('Location:category_list.php');
+
         return $result;
     }
 }

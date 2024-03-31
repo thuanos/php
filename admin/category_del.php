@@ -1,6 +1,6 @@
 <?php 
 include "sanpham/category_sp.php";
-$category = new category();
+$category = new $categoryy();
 if(!isset($_GET['id']) || $_GET['id']==null){
     echo "<script>window.location = 'category_list.php'</script>";
 }else {

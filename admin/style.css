@@ -17,16 +17,17 @@ header{
     border-bottom: 2px solid #dddd;
     text-align: center;
     align-items: center;
+
 }
+
 .admin-content{
-    padding-top: 50px;
     display: flex;
 }
 .admin-content-left{
     background-color: #dddddd;
-    width: 20%;
+    width: 15%;
     height: 100vh;
-    padding: 30px 0 0 12px;
+    padding: 30px 0 0 0px;
 }
 .admin-content-left >ul >li >a{
     font-weight: bold;
@@ -35,10 +36,13 @@ header{
     margin: 6px 0; 
 }
 .admin-content-left ul ul{
-    margin-left: 20px;
+
+    margin-left: 5px;
+
 }
 .admin-content-right{
-    width: 80%;
+    flex: 1;
+    width: 85%;
     padding: 30px 0 0 12px;
 }
 .admin-content-right-category_add input{
@@ -63,6 +67,7 @@ header{
     border: 1px solid brown;
     color: brown;
 }
+
 .admin-content-right-category_list table{
     width: 100%;
     text-align: center;
@@ -73,4 +78,8 @@ header{
 }
 table{
     border-collapse: collapse;
+}
+.table-category {
+    width: 100%;
+   
 }
