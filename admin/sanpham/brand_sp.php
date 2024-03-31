@@ -3,15 +3,15 @@
 
 ?>
 <?php 
-class category{
+class brand{
     private $db;
     public function __construct(){
         $this-> db = new Database();
     }
-    public function insert_category($category_name){
-        $query = "insert into category (tenspham) values('$category_name')";
+    public function insert_brand($id, $brand_name){
+        $query = "insert into brand (id, brand_name) values('$id', '$brand_name')";
         $result = $this->db->insert($query);
-        header('Location:category_list.php');
+        //header('Location:category_list.php');
         return $result;
     }
     public function show_category(){

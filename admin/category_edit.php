@@ -31,11 +31,11 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 
 <div class="admin-content-right">
     <div class="admin-content-right-category_add">
-        <h1>Thêm danh mục</h1>
+        <h1>Sửa danh mục</h1>
         
         <form action="" method="post">
             <input required name="category_name" type="text" placeholder="Nhập tên danh mục" value="<?php echo $result['tenspham'] ?>">
-            <button type="submit">Thêm</button>
+            <button type="submit">Sửa</button>
         </form>
     </div>
 </div>
